@@ -1,0 +1,16 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5431,
+  "username": "nestdb",
+  "password": "nestdb",
+  "database": "nestdb",
+  "entities": [
+    "**/*.entity{.ts,.js}"
+  ],
+  "migrationsTableName": "migration",
+  "migrations": [
+    "src/migration/*.ts"
+  ],
+  "ssl": false
+}
