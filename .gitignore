@@ -37,3 +37,4 @@ lerna-debug.log*
 nest_pgadmin_data
 nest_postgres_data
 .env
+ormconfig.json
